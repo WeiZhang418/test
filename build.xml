@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project default="main" basedir=".">
-    <target name="main" depends="clean, compile, run" description="Main target">
+<project default="test" basedir=".">
+    <target name="test" depends="clean, compile, run" description="Main target">
        <echo>Building files.</echo>
     </target>
     <target name="clean">
